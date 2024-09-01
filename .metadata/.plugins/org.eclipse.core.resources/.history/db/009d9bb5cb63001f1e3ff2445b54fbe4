@@ -1,0 +1,24 @@
+package com.exercio_3;
+
+import java.util.Scanner;
+
+public class Exercio_3 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Olá dia seu sexo");
+		
+		String sexo = scan.nextLine();
+		
+		if( sexo == "F") {
+			System.out.println("F-Feminino");
+		}else if( sexo == "M") {
+			System.out.println("M-Masculino");
+		}else {
+			System.out.println("inexistemte");
+		}
+
+	}
+
+}
